@@ -37,6 +37,7 @@ sh authy*
 sh gnome-disk-utility*
 sh cryptomator-v1*
 sh gnome-gtkhash-v1*
+sh losslesscut-bin*
 sh ice-dev-v1*
 sh mcmojave-circle-icon-theme-git*
 sh realvnc-vnc-viewer-v1*
