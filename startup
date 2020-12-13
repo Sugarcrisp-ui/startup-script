@@ -36,6 +36,7 @@ sh 200-software-AUR-repo*
 
 cd ~/DATA/arco-xfce-brett/AUR
 
+sh appimagelauncher*
 sh authy*
 sh gnome-disk-utility*
 sh cryptomator-v1*
