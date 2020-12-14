@@ -1,7 +1,15 @@
 #!/bin/bash
-#
+# The set command is used to determine action if error 
+# is encountered.  (-e) will stop and exit (+e) will 
+# continue with the script.
+set +e
+
 ##################################################################################################################
+<<<<<<< HEAD
 # Written to be used on 64 bits computers
+=======
+# Written to be used on 64 bit computers
+>>>>>>> 87290bed8f6e4a37caa855e87a0097a662e3479f
 # Author 	: 	Brett Crisp
 ##################################################################################################################
 ##################################################################################################################
@@ -32,6 +40,7 @@ sh 200-software-AUR-repo*
 
 cd ~/DATA/arco-xfce-brett/AUR
 
+sh appimagelauncher*
 sh authy*
 sh gnome-disk-utility*
 sh cryptomator-v1*
