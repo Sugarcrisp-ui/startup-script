@@ -2,8 +2,7 @@
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
-# Author 	: 	Erik Dubois
-# Website 	: 	http://www.erikdubois.be
+# Author 	: 	Brett Crisp
 ##################################################################################################################
 ##################################################################################################################
 #
@@ -40,6 +39,7 @@ sh gnome-gtkhash-v1*
 sh losslesscut-bin*
 sh ice-dev-v1*
 sh mcmojave-circle-icon-theme-git*
+sh realvnc-vnc-server*
 sh realvnc-vnc-viewer-v1*
 
 cd ~/DATA/arco-xfce-brett/Personal
