@@ -23,15 +23,15 @@ cd ~/DATA
 
 cd ~DATA/xfce-config
 
-cp bashrc-personal /home/brett/.bashrc-personal
+cp bashrc-personal ~/.bashrc-personal
 
-cp -r autostart/. /home/brett/.config/
+cp -r autostart/. ~/.config/
 
-cp -r Thunar/. /home/brett/.config/
+cp -r Thunar/. ~/.config/
 
-cp -r variety/Fetched/. /home/brett/.config/variety/Fetched/
+cp -r variety/Fetched/. ~/.config/variety/Fetched/
 
-cp -r xfce-perchannel-xml/. /home/brett/.config/xfce4/xfconf/xfce-perchannel-xml/
+cp -r xfce-perchannel-xml/. ~/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 cd ~/DATA
 
