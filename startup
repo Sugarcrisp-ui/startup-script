@@ -11,7 +11,7 @@ set +e
 
 sudo pacman -Syyu --noconfirm
 
-sudo pacman -S yay --noconfirm
+wget -O -https://gist.githubusercontent.com/hlissner/9ec4d02e809f41911b057f8655776edc/raw/9ca63f46505d201d31546e8226225004c75a30d9/install-yay.sh | bash
 
 yay -Syu --noconfirm
 
