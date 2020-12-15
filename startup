@@ -15,11 +15,11 @@ wget -O - https://gist.githubusercontent.com/hlissner/9ec4d02e809f41911b057f8655
 
 #sudo pacman -S --needed base-devel
 
-git clone https://aur.archlinux.org/yay.git
+#git clone https://aur.archlinux.org/yay.git
 
-cd yay
+#cd yay
 
-makepkg -si --noconfirm
+#makepkg -si --noconfirm
 
 yay -Syu --noconfirm
 
