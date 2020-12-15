@@ -58,7 +58,7 @@ cd ~/DATA
 
 [ -d ~/DATA/xfce-config ] || git clone https://github.com/Sugarcrisp-ui/xfce-config
 
-cd ~DATA/xfce-config
+cd ~/DATA/xfce-config
 
 cp bashrc-personal ~/.bashrc-personal
 
