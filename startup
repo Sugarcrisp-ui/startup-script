@@ -71,8 +71,6 @@ sh fix-pamac-aur*
 
 skel
 
-sudo reboot
-
 tput setaf 1
 echo "################################################################"
 echo "JUST FOR THE COMPUTER OF BRETT CRISP"
