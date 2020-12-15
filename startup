@@ -9,7 +9,7 @@ set -e
 # Author 	: 	Brett Crisp
 ##################################################################################################################
 
-sudo pacman -Syyu --noconfirm
+sudo pacman -Syu --noconfirm
 
 yay -Syu --noconfirm
 
