@@ -25,7 +25,7 @@ cp -r Thunar/. /home/brett/.config/
 
 cp -r variety/Fetched/. /home/brett/.config/variety/
 
-cp -r xfce-perchannel-xml/. /home/brett/.config/xfce4/xconf/xfce-perchannel-xml/
+cp -r xfce-perchannel-xml/. /home/brett/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 cd
 
