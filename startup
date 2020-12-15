@@ -13,9 +13,15 @@ sudo pacman -Syyu --noconfirm
 
 yay -Syu --noconfirm
 
-git clone https://github.com/Sugarcrisp-ui/xfce-config
+mkdir ~/DATA
 
-cd xfce-config
+chmod +x -R ~/DATA*
+
+cd ~/DATA
+
+[ -d ~/DATA/xfce-config ] || git clone https://github.com/Sugarcrisp-ui/xfce-config
+
+cd ~DATA/xfce-config
 
 cp bashrc-personal /home/brett/.bashrc-personal
 
@@ -23,15 +29,9 @@ cp -r autostart/. /home/brett/.config/
 
 cp -r Thunar/. /home/brett/.config/
 
-cp -r variety/Fetched/. /home/brett/.config/variety/
+cp -r variety/Fetched/. /home/brett/.config/variety/Fetched/
 
 cp -r xfce-perchannel-xml/. /home/brett/.config/xfce4/xfconf/xfce-perchannel-xml/
-
-cd
-
-mkdir ~/DATA
-
-chmod +x -R ~/DATA*
 
 cd ~/DATA
 
