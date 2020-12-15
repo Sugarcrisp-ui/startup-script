@@ -70,8 +70,6 @@ cp -r variety/Fetched/. ~/.config/variety/Fetched/
 
 cp -r xfce-perchannel-xml/. ~/.config/xfce4/xfconf/xfce-perchannel-xml/
 
-skel
-
 tput setaf 1
 echo "################################################################"
 echo "JUST FOR THE COMPUTER OF BRETT CRISP"
