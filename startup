@@ -13,10 +13,21 @@ sudo pacman -Syyu --noconfirm
 
 yay -Syu --noconfirm
 
-mkdir ~/DATA
+git clone https://github.com/Sugarcrisp-ui/xfce-config
 
-#cp -r DATA ~
-#cp -r VirtualBox\ VMs/ ~
+cd xfce-config
+
+cp ~/bashrc-personal /home/brett/.bashrc-personal
+
+cp -r autostart /home/brett/.config
+
+cp -r Thunar /home/brett/.config
+
+cp -r variety/Fetched /home/brett/.config/variety
+
+cd
+
+mkdir ~/DATA
 
 chmod +x -R ~/DATA*
 
@@ -55,18 +66,6 @@ sh 950-install-all-fonts-needed-for-conkys-of-arcolinux*
 sh 955-install-settings-autoconnect-to-bluetooth-headset-v*
 sh 997-makepkg-name-email-v1*
 sh fix-pamac-aur*
-
-git clone https://github.com/Sugarcrisp-ui/xfce-config
-
-cd xfce-config
-
-cp ~/xfce-config-personal ~/.bashrc-personal
-
-cp -r autostart ~/.config/
-
-cp -r Thunar ~/.config/
-
-cp -r variety/Fetched ~/.config/variety/Fetched
 
 skel
 
