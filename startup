@@ -58,15 +58,15 @@ sh fix-pamac-aur*
 
 git clone https://github.com/Sugarcrisp-ui/xfce-config
 
-cd ~/xfce-config-personal ~/brett/
+cd xfce-config
 
-cp bashrc
+cp ~/xfce-config-personal ~/.bashrc-personal
 
-cp -r autostart ~/brett/.config/
+cp -r autostart ~/.config/
 
-cp -r Thunar ~/brett/.config/
+cp -r Thunar ~/.config/
 
-cp -r xfce4 ~/brett/.config/
+cp -r variety/Fetched ~/.config/variety/Fetched
 
 skel
 
