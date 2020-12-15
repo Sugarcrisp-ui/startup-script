@@ -18,7 +18,7 @@ mkdir ~/DATA
 #cp -r DATA ~
 #cp -r VirtualBox\ VMs/ ~
 
-chmod +x -R ~/DATA/*
+chmod +x -R ~/DATA*
 
 cd ~/DATA
 
