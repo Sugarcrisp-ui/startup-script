@@ -56,17 +56,19 @@ sh 955-install-settings-autoconnect-to-bluetooth-headset-v*
 sh 997-makepkg-name-email-v1*
 sh fix-pamac-aur*
 
-skel
-
 git clone https://github.com/Sugarcrisp-ui/xfce-config
 
-cd ~/xfce-config
+cd ~/xfce-config-personal ~/brett/
+
+cp bashrc
 
 cp -r autostart ~/brett/.config/
 
 cp -r Thunar ~/brett/.config/
 
 cp -r xfce4 ~/brett/.config/
+
+skel
 
 sudo reboot
 
