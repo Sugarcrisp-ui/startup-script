@@ -11,19 +11,11 @@ set +e
 
 sudo pacman -Syyu --noconfirm
 
-#wget -O - https://gist.githubusercontent.com/hlissner/9ec4d02e809f41911b057f8655776edc/raw/9ca63f46505d201d31546e8226225004c75a30d9/install-yay.sh | bash
-
-#sudo pacman -S --needed base-devel
-
-#git clone https://aur.archlinux.org/yay.git
-
-#cd yay
-
-#makepkg -si --noconfirm
-
 yay -Syu --noconfirm
 
-cp -r DATA ~
+mkdir ~/DATA
+
+#cp -r DATA ~
 #cp -r VirtualBox\ VMs/ ~
 
 chmod +x -R ~/DATA/*
@@ -63,6 +55,21 @@ sh 950-install-all-fonts-needed-for-conkys-of-arcolinux*
 sh 955-install-settings-autoconnect-to-bluetooth-headset-v*
 sh 997-makepkg-name-email-v1*
 sh fix-pamac-aur*
+
+skel
+
+git clone https://github.com/Sugarcrisp-ui/xfce-config
+
+cd ~/xfce-config
+
+cp -r autostart ~/brett/.config/
+
+cp -r Thunar ~/brett/.config/
+
+cp -r xfce4 ~/brett/.config/
+
+sudo reboot
+
 tput setaf 1
 echo "################################################################"
 echo "JUST FOR THE COMPUTER OF BRETT CRISP"
