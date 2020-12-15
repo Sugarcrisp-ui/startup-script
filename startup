@@ -11,6 +11,8 @@ set +e
 
 sudo pacman -Syyu --noconfirm
 
+sudo pacman -S yay --noconfirm
+
 yay -Syu --noconfirm
 
 mkdir ~/DATA
