@@ -13,6 +13,8 @@ sudo pacman -Syyu --noconfirm
 
 yay -Syu --noconfirm
 
+mkdir ~/DATA
+
 cp -r DATA ~
 #cp -r VirtualBox\ VMs/ ~
 
