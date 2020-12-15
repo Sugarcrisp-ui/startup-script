@@ -19,13 +19,13 @@ cd xfce-config
 
 cp ~/bashrc-personal /home/brett/.bashrc-personal
 
-cp -r autostart /home/brett/.config
+cp -r autostart/. /home/brett/.config/
 
-cp -r Thunar /home/brett/.config
+cp -r Thunar/. /home/brett/.config/
 
-cp -r variety/Fetched /home/brett/.config/variety
+cp -r variety/Fetched/. /home/brett/.config/variety/
 
-cp -r xconf/xfce-perchannel-xml/ .config/xfce/xconf/xfce-perchannel-xml
+cp -r xfce-perchannel-xml/. /home/brett/.config/xfce/xconf/xfce-perchannel-xml/
 
 cd
 
