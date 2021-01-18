@@ -29,8 +29,6 @@ sh 200-software-AUR-repo*
 
 cd ~/DATA/arco-xfce-brett/AUR
 
-# Following apps are disabled for testing of script to save time
-
 sh appimagelauncher*
 sh authy*
 sh gnome-disk-utility*
