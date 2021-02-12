@@ -29,17 +29,16 @@ sh 200-software-AUR-repo*
 
 cd ~/DATA/arco-xfce-brett/AUR
 
-# Following apps are disabled for testing of script to save time
 
-sh appimagelauncher*
+#sh appimagelauncher*
 sh authy*
-#sh gnome-disk-utility*
-#sh cryptomator-v1*
-#sh gnome-gtkhash-v1*
-#sh ice-dev-v1*
-#sh mcmojave-circle-icon-theme-git*
-#sh realvnc-vnc-server*
-#sh realvnc-vnc-viewer-v1*
+sh gnome-disk-utility*
+sh cryptomator-v1*
+sh gnome-gtkhash-v1*
+sh ice-dev-v1*
+sh mcmojave-circle-icon-theme-git*
+sh realvnc-vnc-server*
+sh realvnc-vnc-viewer-v1*
 
 cd ~/DATA/arco-xfce-brett/Personal
 
