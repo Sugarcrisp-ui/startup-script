@@ -54,21 +54,39 @@ sh 955-install-settings-autoconnect-to-bluetooth-headset-v*
 sh 997-makepkg-name-email-v1*
 sh fix-pamac-aur*
 
-#cd ~/DATA
+cd ~/DATA
 
-#[ -d ~/DATA/xfce-config ] || git clone https://github.com/Sugarcrisp-ui/xfce-config
+[ -d ~/DATA/personal-settings ] || git clone https://github.com/Sugarcrisp-ui/personal-settings
 
-#cd ~/DATA/xfce-config
+cd ~/DATA/personal-settings
 
-#cp bashrc-personal ~/.bashrc-personal
+cp -r .bin-personal/ /home/brett/
 
-#cp -r autostart/. ~/.config/
+cp -r .local /home/brett/
 
-#cp -r Thunar/. ~/.config/
+cp -r .ssh/ /home/.ssh
 
-#cp -r variety/Fetched/. ~/.config/variety/Fetched/
+cp -r src/ /home/brett/src
 
-#cp -r xfce-perchannel-xml/. ~/.config/xfce4/xfconf/xfce-perchannel-xml/
+cp .bashrc-personal /home/brett/.bashrc-personal
+
+cp .gtkrc-2.0.mine /home/brett/.gtkrc-2.0.mine
+
+cd ~/DATA
+
+[ -d ~/DATA/xfce-config ] || git clone https://github.com/Sugarcrisp-ui/xfce-config
+
+cd ~/DATA/xfce-config
+
+cp bashrc-personal /home/brett/.bashrc-personal
+
+cp -r autostart/ /home/brett/.config/
+
+cp -r Thunar/ /home/brett/.config/
+
+cp -r variety/Fetched/ /home/brett/.config/variety/Fetched/
+
+cp -r xfce-perchannel-xml/ /home/brett/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 tput setaf 1
 echo "################################################################"
