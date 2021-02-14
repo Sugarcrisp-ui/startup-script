@@ -64,6 +64,8 @@ cp -r .bin-personal/ /home/brett/
 
 cp -r .local /home/brett/
 
+cp -r scr /home/brett/
+
 cp .bashrc-personal /home/brett/.bashrc-personal
 
 cp .gtkrc-2.0.mine /home/brett/.gtkrc-2.0.mine
