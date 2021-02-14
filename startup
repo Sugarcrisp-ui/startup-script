@@ -54,21 +54,21 @@ sh 955-install-settings-autoconnect-to-bluetooth-headset-v*
 sh 997-makepkg-name-email-v1*
 sh fix-pamac-aur*
 
-cd ~/DATA
+#cd ~/DATA
 
-[ -d ~/DATA/xfce-config ] || git clone https://github.com/Sugarcrisp-ui/xfce-config
+#[ -d ~/DATA/xfce-config ] || git clone https://github.com/Sugarcrisp-ui/xfce-config
 
-cd ~/DATA/xfce-config
+#cd ~/DATA/xfce-config
 
-cp bashrc-personal ~/.bashrc-personal
+#cp bashrc-personal ~/.bashrc-personal
 
-cp -r autostart/. ~/.config/
+#cp -r autostart/. ~/.config/
 
-cp -r Thunar/. ~/.config/
+#cp -r Thunar/. ~/.config/
 
-cp -r variety/Fetched/. ~/.config/variety/Fetched/
+#cp -r variety/Fetched/. ~/.config/variety/Fetched/
 
-cp -r xfce-perchannel-xml/. ~/.config/xfce4/xfconf/xfce-perchannel-xml/
+#cp -r xfce-perchannel-xml/. ~/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 tput setaf 1
 echo "################################################################"
