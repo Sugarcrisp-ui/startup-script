@@ -33,7 +33,6 @@ cd ~/DATA/arco-xfce-brett/AUR
 sh authy*
 sh gnome-disk-utility*
 sh cryptomator-v1*
-sh diodon*
 sh github-desktop*
 sh gnome-gtkhash-v1*
 sh ice-dev-v1*
