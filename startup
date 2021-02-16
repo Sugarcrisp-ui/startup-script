@@ -59,31 +59,35 @@ cd ~/DATA
 
 cd ~/DATA/personal-settings
 
-cp -a .bin-personal/ /home/brett/
-
-cp -a .local /home/brett/
-
-cp -a scr /home/brett/
-
 cp .bashrc-personal /home/brett/.bashrc-personal
 
 cp .gtkrc-2.0.mine /home/brett/.gtkrc-2.0.mine
 
-cd ~/DATA
+cp -a config/autostart/ /home/brett/.config/
 
-[ -d ~/DATA/xfce-config ] || git clone https://github.com/Sugarcrisp-ui/xfce-config
+cp -a config/Thunar/ /home/brett/.config/
 
-cd ~/DATA/xfce-config
+cp -a config/variety/ /home/brett/.config/
 
-cp bashrc-personal /home/brett/.bashrc-personal
+cp -a bin-personal/ /home/brett/.bin-personal
 
-cp -a autostart/ /home/brett/.config/
+cp -a scr /home/brett/
 
-cp -a Thunar/ /home/brett/.config/
+#cd ~/DATA
 
-cp -a variety/Fetched/ /home/brett/.config/variety/Fetched/
+#[ -d ~/DATA/xfce-config ] || git clone https://github.com/Sugarcrisp-ui/xfce-config
 
-cp -a xfce-perchannel-xml/ /home/brett/.config/xfce4/xfconf/xfce-perchannel-xml/
+#cd ~/DATA/xfce-config
+
+#cp bashrc-personal /home/brett/.bashrc-personal
+
+#cp -a autostart/ /home/brett/.config/
+
+#cp -a Thunar/ /home/brett/.config/
+
+#cp -a variety/Fetched/ /home/brett/.config/variety/Fetched/
+
+#cp -a xfce-perchannel-xml/ /home/brett/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 tput setaf 1
 echo "################################################################"
