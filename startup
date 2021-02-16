@@ -9,9 +9,9 @@ set -e
 # Author 	: 	Brett Crisp
 ##################################################################################################################
 
-sudo pacman -Syu --noconfirm
+sudo pacman -Syyu --noconfirm
 
-yay -Syu --noconfirm
+yay -Syyu --noconfirm
 
 mkdir ~/DATA
 
@@ -32,13 +32,13 @@ cd ~/DATA/arco-xfce-brett/AUR
 #sh appimagelauncher*
 sh authy*
 sh gnome-disk-utility*
-sh cryptomator-v1*
+sh cryptomator*
 sh github-desktop*
-sh gnome-gtkhash-v1*
-sh ice-dev-v1*
+sh gnome-gtkhash*
+sh ice-dev*
 sh mcmojave-circle-icon-theme-git*
 sh realvnc-vnc-server*
-sh realvnc-vnc-viewer-v1*
+sh realvnc-vnc-viewer*
 
 cd ~/DATA/arco-xfce-brett/Personal
 
@@ -49,8 +49,8 @@ sh 900-install-personal-settings-folders*
 sh 915-install-personal-settings-screenshot-to-jpg*
 sh 930-autostart-applications*
 sh 950-install-all-fonts-needed-for-conkys-of-arcolinux*
-sh 955-install-settings-autoconnect-to-bluetooth-headset-v*
-sh 997-makepkg-name-email-v1*
+sh 955-install-settings-autoconnect-to-bluetooth-headset*
+sh 997-makepkg-name-email*
 sh fix-pamac-aur*
 
 cd ~/DATA
@@ -59,11 +59,11 @@ cd ~/DATA
 
 cd ~/DATA/personal-settings
 
-cp -r .bin-personal/ /home/brett/
+cp -a .bin-personal/ /home/brett/
 
-cp -r .local /home/brett/
+cp -a .local /home/brett/
 
-cp -r scr /home/brett/
+cp -a scr /home/brett/
 
 cp .bashrc-personal /home/brett/.bashrc-personal
 
@@ -77,13 +77,13 @@ cd ~/DATA/xfce-config
 
 cp bashrc-personal /home/brett/.bashrc-personal
 
-cp -r autostart/ /home/brett/.config/
+cp -a autostart/ /home/brett/.config/
 
-cp -r Thunar/ /home/brett/.config/
+cp -a Thunar/ /home/brett/.config/
 
-cp -r variety/Fetched/ /home/brett/.config/variety/Fetched/
+cp -a variety/Fetched/ /home/brett/.config/variety/Fetched/
 
-cp -r xfce-perchannel-xml/ /home/brett/.config/xfce4/xfconf/xfce-perchannel-xml/
+cp -a xfce-perchannel-xml/ /home/brett/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 tput setaf 1
 echo "################################################################"
