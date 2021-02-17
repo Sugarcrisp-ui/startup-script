@@ -63,11 +63,11 @@ cp .bashrc-personal /home/brett/.bashrc-personal
 
 cp .gtkrc-2.0.mine /home/brett/.gtkrc-2.0.mine
 
-cp -a config/autostart/ /home/brett/.config/
+#cp -a config/autostart/ /home/brett/.config/
 
-cp -a config/Thunar/ /home/brett/.config/
+#cp -a config/Thunar/ /home/brett/.config/
 
-cp -a config/variety/ /home/brett/.config/
+#cp -a config/variety/ /home/brett/.config/
 
 cp -a bin-personal/ /home/brett/.bin-personal
 
